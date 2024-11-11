@@ -1,0 +1,114 @@
+# The translation that should be used
+used-language: "en"
+
+# The global prefix that will be used in the plugin.
+prefix: "&8[&6Perms&8]&r"
+
+# All available translations for the plugin.
+# If you want to add a new language, just copy the full section, change the identifier to the country code,
+# change your translations and change the used-language above to the new identifier.
+# By default, the plugin has 2 translations: German (de) and English (en).
+# Placeholders are replaced by the plugin, simply use {0} and so on.
+# If you want to use a new line, use %n.
+languages:
+  de:
+    join-message: "{0} &8| &7{1} {2}&7hat den Server betreten."
+    no-permission: "%prefix% &cDu hast keine Berechtigung für diese Aktion."
+    commands:
+      sign:
+        player-only: "%prefix% &cDieser Befehl kann nur von Spielern ausgeführt werden."
+        look-at-sign: "%prefix% &cDu musst auf ein Schild schauen."
+        usage: "%prefix% &7Benutzung: &f/perms sign [{0}]"
+        set-sign: "%prefix% &7Das Schild wurde gesetzt."
+        no-sign-found: "%prefix% &cEs wurde kein Schild gefunden."
+        removed-sign: "%prefix% &7Das Schild wurde entfernt."
+        already-set: "%prefix% &cDieses Schild ist bereits gesetzt."
+      perms:
+        usage: "%prefix% &7Benutzung: &f/perms [{0}]"
+      group:
+        help-message: "%prefix% &7/perms group <Name> create %n%prefix% &7/perms group <Name> delete %n%prefix% &7/perms group <Name> add <Permission> %n%prefix% &7/perms group <Name> remove <Permission> %n%prefix% &7/perms group <Name> info %n%prefix% &7/perms group <Name> default <true/false> %n%prefix% &7/perms group <Name> suffix <Suffix> %n%prefix% &7/perms group <Name> prefix <Präfix> %n%prefix% &7/perms group <Name> weight <Gewicht>"
+        group-exists: "%prefix% &cDiese Gruppe existiert bereits."
+        group-not-existing: "%prefix% &cDiese Gruppe existiert nicht."
+        created: "%prefix% &7Die Gruppe &f{0} &7wurde erstellt."
+        deleted: "%prefix% &7Die Gruppe &f{0} &7wurde gelöscht."
+        info: "%prefix% &7Gruppe: &f{0} %n%prefix% &7Standard: &f{1} %n%prefix% &7Gewicht: &f{2} %n%prefix% &7Präfix: &f{3} %n%prefix% &7Suffix: &f{4} %n%prefix% &7Berechtigungen: &f{5}"
+        already-has-permission: "%prefix% &cDiese Gruppe hat diese Berechtigung bereits."
+        does-not-have-permission: "%prefix% &cDiese Gruppe hat diese Berechtigung nicht."
+        added-permission: "%prefix% &7Die Berechtigung &f{0} &7wurde der Gruppe &f{1}&7 hinzugefügt."
+        removed-permission: "%prefix% &7Die Berechtigung &f{0} &7wurde der Gruppe &f{1}&7 entfernt."
+        already-default-status: "%prefix% &cDiese Gruppe hat bereits den Status {0} als Standard."
+        updated-default-status: "%prefix% &7Der Standard-Status der Gruppe &f{0} &7wurde auf &f{1} &7gesetzt."
+        already-has-suffix: "%prefix% &cDiese Gruppe hat bereits diesen Suffix."
+        updated-suffix: "%prefix% &7Der Suffix der Gruppe &f{0} &7wurde auf &f{1} &7gesetzt."
+        already-has-prefix: "%prefix% &cDiese Gruppe hat bereits diesen Präfix."
+        updated-prefix: "%prefix% &7Der Präfix der Gruppe &f{0} &7wurde auf &f{1} &7gesetzt."
+        already-has-weight: "%prefix% &cDiese Gruppe hat bereits dieses Gewicht."
+        updated-weight: "%prefix% &7Das Gewicht der Gruppe &f{0} &7wurde auf &f{1} &7gesetzt."
+        invalid-weight: "%prefix% &cDas Gewicht muss eine Zahl sein."
+      user:
+        help-message: "%prefix% &7/perms user <Name> add <Permission> %n%prefix% &7/perms user <Name> remove <Permission> %n%prefix% &7/perms user <Name> info %n%prefix% &7/perms user <Name> group add <Gruppe> [Dauer] %n%prefix% &7/perms user <Name> group remove <Gruppe>"
+        no-user: "%prefix% &cDieser Spieler existiert nicht."
+        info: "%prefix% &7Spieler: &f{0} %n%prefix% &7UUID: &f{1} %n%prefix% &7Höchste Gruppe: &f{2} %n%prefix% &7Gruppen: &f{3} %n%prefix% &7Berechtigungen: &f{4}"
+        already-has-permission: "%prefix% &cDieser Spieler hat diese Berechtigung bereits."
+        does-not-have-permission: "%prefix% &cDieser Spieler hat diese Berechtigung nicht."
+        added-permission: "%prefix% &7Die Berechtigung &f{0} &7wurde dem Spieler &f{1}&7 hinzugefügt."
+        removed-permission: "%prefix% &7Die Berechtigung &f{0} &7wurde dem Spieler &f{1}&7 entfernt."
+        added-group: "%prefix% &7Die Gruppe &f{0} &7wurde dem Spieler &f{1}&7 hinzugefügt."
+        removed-group: "%prefix% &7Die Gruppe &f{0} &7wurde dem Spieler &f{1}&7 entfernt."
+        already-added-group: "%prefix% &cDieser Spieler hat diese Gruppe bereits."
+        not-existing-group: "%prefix% &cDiese Gruppe existiert nicht."
+        already-in-group: "%prefix% &cDieser Spieler ist bereits in dieser Gruppe."
+        not-in-group: "%prefix% &cDieser Spieler ist nicht in dieser Gruppe."
+        invalid-duration-format: "%prefix% &cUngültiges Zeitformat [{0}]. Benutze das folgende Format: 1d 1h 1m"
+      groups: "%prefix% &7Gruppen: &f{0}"
+
+  en:
+    join-message: "{0} &8| &7{1} {2}&7has joined the server."
+    no-permission: "%prefix% &cYou don't have permission to execute this."
+    commands:
+      sign:
+        player-only: "%prefix% &cThis command can only be executed by players."
+        look-at-sign: "%prefix% &cYou have to look at a sign."
+        usage: "%prefix% &7Usage: &f/perms sign [{0}]"
+        set-sign: "%prefix% &7The sign has been set."
+        no-sign-found: "%prefix% &cNo sign found."
+        removed-sign: "%prefix% &7The sign has been removed."
+        already-set: "%prefix% &cThis sign is already set."
+      perms:
+        usage: "%prefix% &7Usage: &f/perms [{0}]"
+      group:
+        help-message: "%prefix% &7/perms group <name> create %n%prefix% &7/perms group <name> delete %n%prefix% &7/perms group <name> add <Permission> %n%prefix% &7/perms group <name> remove <Permission> %n%prefix% &7/perms group <name> info %n%prefix% &7/perms group <name> default <true/false> %n%prefix% &7/perms group <name> suffix <suffix> %n%prefix% &7/perms group <name> prefix <prefix> %n%prefix% &7/perms group <name> weight <weight>"
+        already-exists: "%prefix% &cThis group already exists."
+        not-existing: "%prefix% &cThis group doesn't exist."
+        created: "%prefix% &7The group &f{0} &7has been created."
+        deleted: "%prefix% &7The group &f{0} &7has been deleted."
+        info: "%prefix% &7Group: &f{0} %n%prefix% &7Default: &f{1} %n%prefix% &7Weight: &f{2} %n%prefix% &7Prefix: &f{3} %n%prefix% &7Suffix: &f{4} %n%prefix% &7Permissions: &f{5}"
+        already-has-permission: "%prefix% &cThis group already has this permission."
+        does-not-have-permission: "%prefix% &cThis group doesn't have this permission."
+        added-permission: "%prefix% &7The permission &f{0} &7has been added to the group &f{1}&7."
+        removed-permission: "%prefix% &7The permission &f{0} &7has been removed from the group &f{1}&7."
+        already-default-status: "%prefix% &cThis group is already set as {0} default status."
+        updated-default-status: "%prefix% &7The default status of the group &f{0} &7has been set to &f{1}&7."
+        already-has-suffix: "%prefix% &cThis group already has this suffix."
+        updated-suffix: "%prefix% &7The suffix of the group &f{0} &7has been set to &f{1}&7."
+        already-has-prefix: "%prefix% &cThis group already has this prefix."
+        updated-prefix: "%prefix% &7The prefix of the group &f{0} &7has been set to &f{1}&7."
+        already-has-weight: "%prefix% &cThis group already has this weight."
+        updated-weight: "%prefix% &7The weight of the group &f{0} &7has been set to &f{1}&7."
+        invalid-weight: "%prefix% &cThe weight must be a number."
+      user:
+        help-message: "%prefix% &7/perms user <name> add <Permission> %n%prefix% &7/perms user <name> remove <Permission> %n%prefix% &7/perms user <name> info %n%prefix% &7/perms user <name> group add <group> [duration] %n%prefix% &7/perms user <name> group remove <group>"
+        no-user: "%prefix% &cThis player doesn't exist."
+        info: "%prefix% &7User: &f{0} %n%prefix% &7UUID: &f{1} %n%prefix% &7Highest group: &f{2} %n%prefix% &7Groups: &f{3} %n%prefix% &7Permissions: &f{4}"
+        already-has-permission: "%prefix% &cThis player already has this permission."
+        does-not-have-permission: "%prefix% &cThis player doesn't have this permission."
+        added-permission: "%prefix% &7The permission &f{0} &7has been added to the player &f{1}&7."
+        removed-permission: "%prefix% &7The permission &f{0} &7has been removed from the player &f{1}&7."
+        added-group: "%prefix% &7The group &f{0} &7has been added to the player &f{1}&7."
+        removed-group: "%prefix% &7The group &f{0} &7has been removed from the player &f{1}&7."
+        already-added-group: "%prefix% &cThis player already has this group."
+        not-existing-group: "%prefix% &cThis group doesn't exist."
+        already-in-group: "%prefix% &cThis player is already in this group."
+        not-in-group: "%prefix% &cThis player is not in this group."
+        invalid-duration-format: "%prefix% &cInvalid duration format [{0}]. Use the following format: 1d 1h 1m"
+      groups: "%prefix% &7Groups: &f{0}"

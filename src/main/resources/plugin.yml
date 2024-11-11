@@ -1,0 +1,9 @@
+name: permission-system
+version: 1.0
+author: tiko
+api-version: 1.20
+main: fyi.tiko.perms.PermissionPlugin
+
+commands:
+  permission:
+    aliases: [perms, perm]

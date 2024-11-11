@@ -1,0 +1,61 @@
+# The credentials used to connect to the database.
+credentials:
+  host: "localhost"
+  user: "username"
+  password: "password"
+  database: "database"
+  port: 3306
+
+# The format that should be applied if the user has a group assigned.
+chat:
+  format: "{prefix} &8| &7{player} {suffix}&8» &f{message}"
+
+# Here you can change the scoreboard dynamically.
+# If you want to add a new line, just copy a section and increment the number.
+# Please note that the entry has to be unique.
+# The scoreboard will be updated automatically every 5 seconds.
+# Available placeholders:
+# %prefix% - The prefix of the player.
+# %suffix% - The suffix of the player.
+# %group% - The highest group of the player.
+scoreboard:
+  '1':
+    prefix: "§4"
+    suffix: ""
+    entry: "§0"
+  '2':
+    prefix: " §8›› §3%suffix%"
+    suffix: ""
+    entry: "§1"
+  '3':
+    prefix: "§7·§8∙ §fSuffix"
+    suffix: ""
+    entry: "§2"
+  '4':
+    prefix: "§3"
+    suffix: ""
+    entry: "§3"
+  '5':
+    prefix: " §8›› §e%prefix%"
+    suffix: ""
+    entry: "§4"
+  '6':
+    prefix: "§7·§8∙ §fPrefix"
+    suffix: ""
+    entry: "§5"
+  '7':
+    prefix: "§9"
+    suffix: ""
+    entry: "§6"
+  '8':
+    prefix: " §8›› §e%group%"
+    suffix: ""
+    entry: "§7"
+  '9':
+    prefix: "§7·§8∙ §fGruppe"
+    suffix: ""
+    entry: "§8"
+  '10':
+    prefix: "§1"
+    suffix: ""
+    entry: "§9"
