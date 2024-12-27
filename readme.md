@@ -1,5 +1,3 @@
-
-
 ### Allgemeine Informationen:
 
 ---
@@ -48,4 +46,6 @@ Basis des Projekts ist die [Paper-API](https://docs.papermc.io/paper/dev), welch
 /perms group <name> suffix <suffix> - setzt den Suffix der Gruppe
 /perms group <name> weight <weight> - setzt das Gewicht der Gruppe - je höher, desto höher die Priorität
 ```
+
+Allgutig
 
