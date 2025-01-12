@@ -3,7 +3,7 @@
 ---
 
 *Projekt aus: Dezember 2023* 
-- Damals für eine Bewerbung in einem größeren Projekt [PlayLegend](https://playlegend.net/) genutzt. Heutzutage, um sich an der internationalen Hochschule und deren Praxispartner vorzustellen.
+- Damals für eine Bewerbung in einem größeren Projekt [PlayLegend](https://playlegend.net/) genutzt.
 
 Hoffentlich sind die wichtigsten Funtkionen hieraus ersichtlich, ansonsten kann man auch einfach in den Quellcode nachschauen. 
 Basis des Projekts ist die [Paper-API](https://docs.papermc.io/paper/dev), welche als "Framework" für Minecraft-Plugins nutzt.
